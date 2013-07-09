@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 08/07/2013, 15:03:08
+    Created on : 09/07/2013, 08:38:26
     Author     : Augusto
 --%>
 
@@ -13,11 +13,5 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <link rel="stylesheet" type="text/css" href="estilo.css" media="all" />
-        <script type="text/javascript" src="script.js"></script>
-
-        <p onclick=DisparaText();> Clique aqui </p>
-        
-        
     </body>
 </html>
