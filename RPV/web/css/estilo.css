@@ -1,0 +1,15 @@
+/* 
+    Document   : css
+    Created on : 09/07/2013, 08:46:22
+    Author     : Augusto
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+   body { background-color:#000; }
+   h1 { background-color: #365 }
+   p1 { background-color: #365 }
+   #a1 { display:block; marging:20px auto; }
+   
+

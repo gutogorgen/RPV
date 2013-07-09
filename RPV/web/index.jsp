@@ -13,5 +13,11 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+       
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+
+        <script type="text/javascript" src="js/script.js"></script>
+        
+        <p1 onclick=PegaNome();> <i>DIGITE SEU NOME AQUI!</i> </p>
     </body>
 </html>
