@@ -7,9 +7,7 @@
 */
 
 
-   body { background-color:#000; }
-   h1 { background-color: #365 }
-   p1 { background-color: #365 }
+   body { background-image: url("../images/background.gif"); }
    #a1 { display:block; marging:20px auto; }
    
 
