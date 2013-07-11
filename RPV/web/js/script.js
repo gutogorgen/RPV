@@ -7,4 +7,5 @@ function PegaNome(){
     var nome = window.prompt("Digite seu nome aqui:");
     
     alert("Seu nome é: "+nome);
+    alert("_)_");
 }
