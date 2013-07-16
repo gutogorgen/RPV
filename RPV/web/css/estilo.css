@@ -6,8 +6,13 @@
         Purpose of the stylesheet follows.
 */
 
-
-   body { background-image: url("../images/background.gif"); }
-   #a1 { display:block; marging:20px auto; }
-   
-
+#body {
+    background-image: url("../images/background.gif");
+}
+#h1 {
+    alignment-adjust: central;
+    color: #ff0033;
+}
+#p1 {
+    color: #3300ff;
+}
