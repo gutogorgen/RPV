@@ -2,7 +2,6 @@ package banco;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 import java.sql.Statement;
 
 /*
@@ -15,12 +14,12 @@ import java.sql.Statement;
  */
 public class JDBC {
 
-    Connection con;
+    Connection con = null;
 
     private boolean connect() {
         try {
             Class.forName("org.gjt.mm.mysql.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/teste", "root", "root");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "");
             return con != null ? true : false;
         } catch (Exception ex) {
             return false;
@@ -31,10 +30,9 @@ public class JDBC {
         if (con != null) {
             try {
                 con.close();
-            } catch (Exception ex) {
-            } finally {
-                con = null;
+            } catch (Exception e) {
             }
+            con = null;
         }
     }
 
