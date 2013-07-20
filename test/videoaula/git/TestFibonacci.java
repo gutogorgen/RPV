@@ -14,12 +14,5 @@ import static org.junit.Assert.*;
  */
 public class TestFibonacci {
     
-    @Test
-   public void testFibonacci(){
-        
-      
-       Fibonacc fc = new Fibonacc();
-        
-        assertEquals(0, fc.calculaFib(0));
-    }
+    
 }
